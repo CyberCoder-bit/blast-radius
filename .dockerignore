@@ -1,0 +1,6 @@
+# Allowlist: only what the submission image needs. vendor/ (sqlglot checkout)
+# and sample/ must never reach the build context. Add paths here deliberately.
+*
+!selector/
+!maps/
+**/__pycache__

@@ -1,0 +1,19 @@
+# Pinned sqlglot checkout (make sqlglot). Never commit it; clone it in Docker if needed.
+vendor/
+
+# Local run outputs
+output.jsonl
+output.stderr.log
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+.coverage*
+
+# Download leftovers, not part of the repo
+blast-radius-sample.tar.gz
+*:Zone.Identifier
+recipes.json
+out/
